@@ -10,7 +10,8 @@ for (let i = 0; i < ratings.length; i++) {
 console.log("합계:", sum);
 const average = sum / ratings.length;
 console.log("평균:", average);
-let max = ratings[0];, let maxIndex = 0;
+let max = ratings[0];
+let maxIndex = 0;
 for (let i = 0; i < ratings.length; i++){
  if (ratings[i] > max){
       max = ratings[i];
