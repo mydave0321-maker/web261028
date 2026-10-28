@@ -1,8 +1,8 @@
 // script.js : 내 영화 평점 통계(콘솔판)
 // 작성자 : 이름(학번)
-const titles = ["제목1", "제목2", "제목3", "제목4", "제목5"];
-const ratings = [8.4, 7.9, 9.0, 6.5, 8.1];
-const years = [2014, 2019, 1994, 2023, 2008];
+const titles = ["히트", "더 하더 데이 폴", "세븐", "파이트 클럽", "콜래트럴"];
+const ratings = [7.9, 6.6, 8.4, 8.4, 7.2];
+const years = [1995, 2021, 1995, 1999, 2004];
 let sum = 0;
 for (let i = 0; i < ratings.length; i++) {
  sum = sum + ratings[i];
