@@ -8,3 +8,5 @@ for (let i = 0; i < ratings.length; i++) {
  sum = sum + ratings[i];
 }
 console.log("합계:", sum);
+const average = sum / ratings.length;
+console.log("평균:", average);
