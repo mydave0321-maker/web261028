@@ -12,10 +12,13 @@ const average = sum / ratings.length;
 console.log("평균:", average);
 let max = ratings[0];
 let maxIndex = 0;
+let count = 0;
 for (let i = 0; i < ratings.length; i++){
+ if (ratings[i] >= 8) count++;
  if (ratings[i] > max){
       max = ratings[i];
     maxIndex = i;
   }
 }
 console.log("최고:", titles[maxIndex], max);
+console.log("8점 이상:", count + "편");
