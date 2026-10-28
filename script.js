@@ -34,3 +34,6 @@ if (ratings[i] >= 8.5) {
 }
 console.log("최고:", titles[maxIndex], max);
 console.log("8점 이상:", count + "편");
+const avgText = average.toFixed(1);
+const best = titles[maxIndex];
+alert(`내 영화 ${titles.length}편, 평균 ${avgText}점, 최고는 ${best}`);
